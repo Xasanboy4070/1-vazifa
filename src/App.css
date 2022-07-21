@@ -1,38 +1,171 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&family=Lobster&family=Nunito:wght@300;400&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Nunito;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  padding: 2% 5%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+  align-items: center;
+}
+li {
+  margin: 0 20px;
+  list-style: none;
+  cursor: pointer;
+}
+li:hover {
+  color: blue;
+}
+button {
+  background-color: #066f14;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: white;
+  color: #066f14;
+  border: 2px solid #066f14;
+  font-weight: bold;
+  transition: 1s;
+  cursor: pointer;
+}
+span {
+  color: gold;
+}
+.btn_login {
+  width: 80px;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8% 0;
+}
+.title_header {
+  font-size: 72px;
+}
+.p_header {
+  margin: 30px 0;
+}
+.btn_header {
+  width: 160px;
+  height: 55px;
+  font-size: 16px;
+}
+.numbers {
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+.num {
+  margin-right: 80px;
+}
+.h5_header {
+  margin: 10px;
+  color: grey;
+}
+.img_header2 {
+  position: absolute;
+  top: 450px;
+  left: 500px;
+}
+.images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.h1_images {
+  font-size: 46px;
+  margin-bottom: 20px;
+  margin-right: 150px;
+}
+.about {
+  padding: 10% 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about_img {
+  width: 445px;
+  height: 440px;
+  background-color: green;
+}
+.img_about {
+  margin: 40px 0 0 70px;
+}
+.p_about {
+  color: green;
+  font-weight: bold;
+}
+.h1_about {
+  font-size: 46px;
+}
+.p2_about {
+  margin: 20px 0;
+}
+.btn_about {
+  width: 155px;
+  height: 55px;
+  font-size: 18px;
+  margin-top: 40px;
+}
+.product {
+  padding: 10% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title_product {
+  width: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.h1_product {
+  font-size: 44px;
+  margin-bottom: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product_images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.product_img {
+  width: 270px;
+  height: 283px;
+  background-color: #eaf2e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+.bgc2 {
+  background-color: #f0ebe6;
+}
+.bgc4 {
+  background-color: #e7eeed;
+}
+.btn_product{
+  width: 130px;
+  height: 55px;
+  margin-top: 50px;
+  font-size: 18px;
 }
